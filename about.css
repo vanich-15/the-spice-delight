@@ -1,0 +1,132 @@
+.ourstory__wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 30px;
+    column-gap: 1px;
+}
+.ourstory__title,
+.ourgoals__title{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 1rem;
+}
+.ourstory__img{
+    margin-left: 1px;
+    margin-right: 1px;
+    padding-left: 3px;
+}
+.ourgoals__title{
+    text-align: center;
+}
+.ourstory_subtitle{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: rgb(11, 12, 11);
+    margin-bottom: 2rem;
+}
+.ourstory__text
+.ourgoals__text{
+    font-size: 2px !important;
+    line-height: 1em;
+    color: var(--black-2);
+    font-family: Garamond, serif;
+}
+img{
+    float: left;
+  }
+  
+nav a{
+    color: black;
+    font-size: 150%;
+    padding: 10px;
+    float: right; 
+    display: flex;  
+    flex-direction: row;
+    margin: 4px;
+  }
+nav a:hover{
+    color:rgb(20, 112, 20);
+}
+nav{
+    margin-top: 15px;
+}
+a.booktable{
+  
+  background-color: rgb(3, 150, 3);
+  color: aliceblue;
+  padding: 7px;
+  font-size: 150%;
+  text-align: right;
+  
+}
+.flexbox{
+    margin-left: 20px;
+}
+
+@media only screen and (min-width: 768px){
+    .ourstory__wrapper{
+        flex-direction: row;
+        gap: 3rem;
+     }
+     .ourstory__img,
+     .ourstory__info{
+        flex: 1;
+     }
+     .ourstory__title,
+     .ourgoals__title{
+        font-size: 3.6 rem;
+     }
+     .ourstory_subtitle{
+        font-size: 1.8rem;
+
+     }
+     .ourstory__text,
+     .ourgoals__text{ 
+        font-size: 1.8rem;
+        max-width: 800px;
+     }
+}
+/* our goals styles */
+.ourgols__info{
+    text-align: left;
+    margin-bottom: 5rem;
+}
+.ourgoals_imgs_wrapper img{
+    object-fit: cover;
+
+}
+.ourgoals_imgs_wrapper{
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+}
+.ourgoals__img1{
+    grid-row: 1/3;
+}
+@media only screen and (min-width: 768px){
+    .ourgoals__info{
+        text-align: center;
+    }
+    .ourgoals_imgs_wrapper{
+        gap:2rem;
+    }
+    .ourgoals__text{
+        margin: 0 auto;
+    }
+}
+
+.footer{
+    background-color: rgb(188, 241, 188);
+    font-size: 1.5em;
+    
+  }
+
+  img.logs1,img.logs2,img.logs3{
+    margin: 5px;
+    
+  }

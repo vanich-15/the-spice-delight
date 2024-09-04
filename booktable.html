@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Table</title>
+    <link rel="stylesheet" href="booktable.css">
+
+</head>
+<body>
+    <nav>   
+        <div class="flexbox">
+        <img src="project logo.png" alt="logo" height="100" class="logo">
+         </div>
+        <a href="#" class="booktable">Book Table</a>
+        <a href="contact.html">Contact</a>
+        <a href="about.html">About</a>
+        <a href="#">Menu</a>
+        <a href="index.html">Home</a>
+    </nav>
+</div>
+<br><br> <br><br>
+<p>Book Table</p>
+<div class="wrapper">
+    <form action="/action.php">
+        <div class="firstname">
+    First name<br>
+    <input type="text" name="firstname" placeholder="" minlength="3" required>
+</div>
+     <div class="lastname">
+    Last name<br>
+    <input type="text" name="lastname" placeholder="" minlength="3" required>
+</div>
+<div class="email">
+    Email<br>
+    <input type="email" name="email" placeholder="" required>
+</div>
+<div class="gusetnumber">
+    Guest Number<br>
+    <input type="number" name="guestnumber" placeholder="" required>
+</div>
+    <div class="tabletype">
+    Table Type<br>
+    <select name="tabletype" required>
+        <option value="Choose">Choose</option>
+        <option value="Small">Small(2 persons)</option>
+        <option value="Medium">Medium(4 persons)</option>
+        <option value="Large">Large(6 persons)</option>
+    </select>
+</div>
+     <div class="place">
+        Placement<br>
+      <select name="Placement" required>
+        <option value="choose">Choose</option>
+        <option value="Indoor">Indoor</option>
+        <option value="Outdoor">Outdoor</option>
+        <option value="Rooftop">Rooftop</option>
+     </select>
+    </div>
+    <div class="date">
+     Date<br>
+     <input type="date" name="date" required >
+     </div> 
+     <div class="time">
+        Time<br>
+      <input type="time" name="time" required> 
+    </div>   
+     <div class="note">
+    Note<br>
+   <textarea name="Note" placeholder="" ></textarea>
+     </div>   
+     <br>
+    <div class="submit">
+    <input type="submit" name="Book Table" value="Book Table">
+    </div> 
+
+</div>
+</form>
+<br><br><br>
+<footer>
+    <div class="footer">
+    <img src="project logo.png" height="90" class="logo2"><br>
+    <pre class="p2">    Traditional and Delicious 
+    Indian food to bring smiles 
+    on your faces.<br>
+</pre>
+  <pre class="p3">  Follow Us :</pre>
+  <img class="logs1" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBESEREQDxEPDxEPEhIRERAPEREPEg8PGhQaGhkUGRgcIC8mHCw4HxgYJjgmKy8xNTc1GiQ7QDs0Py40NTEBDAwMEA8QHxISHjEkISs/NDQ0PzE/NTQ2MTc2Pz00NDQ0NzQ4NDQ0NzQ1NDExNDQxMTE0NDQ0NDQ0NDQ0NDE0NP/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAAAwECBAYHBQj/xABKEAABAwICBAkFDAkDBQAAAAABAAIDBBESIQUGMVEHEyIyQWFxgbFUcpGh0hQWIyRCUlNigrLBwjNDc3SSk5SjpCU10Rc0Y7Pw/8QAGQEBAAMBAQAAAAAAAAAAAAAAAAEDBAIF/8QAJxEBAQACAQMEAQQDAAAAAAAAAAECEQMEEjEhMkFREyIzYYEUQqH/2gAMAwEAAhEDEQA/AOzIiICIiAiIgIiIKIvP0npempW4qiVkd9jSbvd5rRme4LVa7XmR1xR09h0S1RLR2hjTc+kLvHjyy8RzcpPLelj1NbFELzSxxDfI9rB6SVy6r0pWTX46qlAPyILQMtu5OZ7yvPFHHcuwBzjtc+7yT1kq2dPfmuLyfUdNm1t0ezbVRH9nil+6CsY68aO+leeyCc/lWgNitsaB2ABCwrucGP8ALn8lb8NedHfSyDtgnH5VPDrho5+Qqox5+OP1uAXOCwqx7N4v25qf8fH+T8ldfpdIwS/oZoZf2cjH+BWUuGvpYzmWNuOkCxHeFm0mlKuD9BVTtA+RI7jmdmF97dy4vTX4qZy/cdlRc60fr9MyzauBsremSmOFwHWxxz7iFt+iNYKWqygla51rmN3Ikb9k594yVOXHlj5iyZS+HroiLh0IiICIiAiIgIiICIiAiIgoiLwtYdYoqQBn6WoePg4WnM/Wcfkjr9CmS26iLZPWvTrq6KCMyzSNjY3a5xt3AbSeoZrSNK63zzXbRtNPEcuPkAMrx9Rhyb2m57F4tXNLUP46qfxjxzGDKOEbmN/E5qRkJK1YcWOPrfWqss7fDFbAMRe4ukkdm6SRxe9x63FTthJWbHTqcRgKy1zpgNplIIFl4VaQo7jTG4oK0xqcq1ynYxnMCjdGshyjcplGK+NQPiWa5ROC6lcsB7FA9guDmHNN2uaS1zTvBGYXovasd7F1Kh7WhtdKqns2ovWQ/ONhOwdTtj+/PrXQ9E6Wgq2cZTvD27HDY5jvmubtaVxt7FSlqJIJBNTvdFI35Tdjh81zdjh1FU58GOXrPSu8eSzy7qi1TVbW+OrtDMBDUgcy/IlA2uYT4HPtW1rFljcbqr5ZZuKoiKEiIiAiIgIiIKIi8LWbTgpIwGASVEt2wxnpd0vd9UdPcFMlt1EW6m6x9adYxTAQwASVUgu1pzbE357/AMB0rSYIHOe5znOllkOJ8js3Od+A6lSGJxc5znGSWV2KR7trnH8NwXv0NKGN+sdq1zGYRTbcqxItGu2ki6lFPhyK9AlQym6d1qdIMKoQpLKwhEIyFY5SOWIXSSScRTNDnixke79HA09Lt53NSBUTsjGJ7msG9xtfs3qOETy509NK9p2PfaCMjeC7M9wWw6N0BDEQ9955umaUBxB+o3YwdnpXsNaSq8uaTxNuphflqLNAVruc+liG4cZK4eAUg1VnPOrGDqbTA+svW3shKlbTrj82TrsjTPejL5Z/jN9tPefJ5Z/jN9tbsIFcIE/Nn9/8OzFo/vLf5Z/jN9tYWltVnwQSz+68fFMxYOIazFmBa+M227l0biV4+t0fxCq6oifWF1jzZ2ybRlhjpzF4WO9qyCo3rdFDFeNhBLS0gtc0lrmuGwgjYV0bUvW7ji2lqyBOBaOU5CoAHTud4rnbwonjrIIILXNJBa4Zgg9BXHJxzOaMc7jX0Ai1HUjWf3WziJyBUwtzOzjo9nGDr3jv6bDbl52WNxuq1SyzcVREUJEREBERBiaQrGQRPmlOFkbS5x8AN5JsAN5XMJqh9RK+pmyfJkxnRDD8lg8T1kr2Nc9I8fUNpGm8VMQ+e2x8xF2M67A3PWepeXE25Wriw7cd3zVOeW7plaPhu4E9Ga9gmywKfkqZ0l11l61ESPeo7q26rdQlWytcq3VpKDDrpH8iOIAzTu4uMHY0/KeeoDNbJorR0dPGI2Z/Ke886R52vcV4+r0PGTz1JzEXxaLqIs6R3pIHcVs7W3Kr5cv9XeE+SNl1mxwqsMayAFQ7WtYrrKqIFksiIFl4ut4/0+r/AGLl7S8bW/8A2+r/AGL11j5iL4rlRUblUvCjc4L02VG9ROUj3KJ5Uxyup6l8MjJoXYJInY2O6L9LSOkEZEbiu1aA0tHWU7J48sWT2bTHIOc0/wD2YIPSuHlbHqLpv3LVCN5tBVlrH32Mm2Mf1ZnCe0HoVHUcfdjueYs489XTsSIiwNIiIgosDTekW01PLO7Pi2Etb895ya3vcQFnrR9favHLT0gOQvUyj6ou1g/ixH7IXfHj3ZSOcrqNapmOsXPOKSRznyOO10jjdxXowMWNE25WewLZapiQKt1bdLrlK+6rdWXVrngbSoEl1FLIGtc47GtLj2AXVjp9ywNKzHiJTf8AVuGXWLfipmO6Wto1YgwUcF+c9vGuO90hLz4r3adixKSPBHGwbGRsaOwNAXo0zclkyu8rV0mppksCuQIuUiIvL1g0s2kp3TEYnXDY2XtjldzW36N56gUktuoi3T1EuuSVulquYl0tTK2/6uB7oGNG6zc3d5KwHF3TJMe2WQ/itE6e/NV/l/h2m68fW/8A2+r/AGLlyoud9JL/ADH/APKje5xBBfI4HaC95B7rrudNqy7ReTc1pYVG4q9yicVrULXKFxUjionKYCteLghEUjtGpmlzV0ccjzeWO8U28yNtyu8FrvtL3wuUcGekuLq30zjyapl2j/zMBPrbi/hC6uvL5cO3Kxqwu4qiIqnai5XpKo46sq5r3HGcSzzIxhy7XXK6ZXVAiiklOyKN7z2NaT+C5Po9pEUeLNzhjcTtLnHET61p4J5qrkviPQgCygseIK98obt27grq5TXVj5QOs7gsV8xPUNwVl07UbTunJ2ZKzEo7pdToSXWDpd3wEnm/iFlXWHpY/ASeaPEKZ8Ivh0vD0blmwDJYpGfesyBefWlMiIgLSuEZ+VGzoMkj7dbWWH3luq0fhH51F50/3WKzh98c5+GnuKscVc4qJxXoMy1xVjirnFROKkWuKjcVc4qNxUxyscVGVc4qxdAqIigTUNWYJoagbYJGPNulodyh3i4719AMcCAQbggEHeF87uFwRvXcNTqvjtH0kl7nimscd72chx9LSsfVY+Ku4b5j20RFkXvC1zlwaOqj86PB/G4M/MtBZZoAOQaAPQFuvCA62jpet8I/vMXOnSFzrn0dAWzgn6f7Ucl9Xp+6b5NyG/pVt1jsKkurdOUl1W6jul0El0uoZH2a4jaAT32Xo0Or9TLFHMJ4GiWNjw0xPJaHNBtfF1qLZjN2pkt8MTEsLSp+Bk838Qtg96lV5TB/Kf7Ssn1OqXscx1TBZwsbRP8AaXP5MPtNxy+m7kZlZUOxYyyohksK9KiIgLRuEjnUXbP91i3la7rVq++s4ji5WxGEvJxML8WINHQRuVnHlMcpa5yls9HNXFRuK206hVHlUH8p3tK33gVHlUP8p3tLZ+bD7UdmX01BxUbitz/6fT+VQ/yne0sHS+pctNBJUPqInNibiLRGWl2YAF79amcuFutouOX01ZxUbiqkqNxVzha4qiFUUgqIqKAXWuDCXFo8N+inlZ3Eh/51yRdR4Jz8VqRuqneuKNZ+p9q3i9ze0RF57Q1jhBH+nS9T4T/daubMOa6hrvFi0dVAdDA/+FwcfUFyxjth3rd0/t/tRye5nsKkusdjlJdXOEl0uo7piXIrMeS7zXeC33V4fE6T93h+41c+lPJd5p8F0PV4fE6T92h+41U8/tizj8vUYy6kESuhCnAWRcgESmY2yuRAREQEREFCEsqogBa1wgS4dHzD57om/wBxpPqBWyrTOE6XDSRN+fUNv2Bjz42VnHN5xzn7a5i4qNxVXFWFemyCoqqiCiIqIC6hwTD4rUnfVH/1Rrl66xwWxYdHl30lRK8dgws/IVm6m/pW8XubmiqiwtDE0nTcbBND9LFJH/E0j8VxKnddjScjYAjrGS7uuL6bpeJrKmHYGyue3zJOW371u5aemy9bFPLPFWMcpLrGY5TBy12Kl90xKy6YlArIeS7zT4LpGrv/AGdJ+7Q/cauZyHku7D4Lpurg+JUn7tD9xqo6jxFnH5ezCplDGpgsa8REQEREBERAREQFz7hUmsKRm8zPP2QwD7xXQVy/hSlvUwM+bCXd7nkfkCu6ebzjjk9rSSVRFReiyioiogIiILXFdv1IpuK0bSNIsXRCQ323kcX/AJlxWnp3TSRwN5072Ri3QXOAv619CRRhrWsaLNaA0DcALALH1OXiLuKealREWReoFzrhJocMsFU0cmRpp3nc8Xcw94Lx3BdFXk6y6L91UssAtic3FGT8mVubT6RY9RKs48u3KVzlNzTkLSpQ5YrHG3KBa4Etc05FrgbEHvUrXL0WZNdLqPEmJNC52eW9SMqJmtDWVNUxrQGta2eRrWtGwAA5KHEqXTQyPd1R5VWf1Mv/ACo6jSNS1jiKqsuBl8Zm9pRXUFSeQ7sUdsLXeMWauBUdsz2q9q8trVREQFo3CTVyxil4qWWLEZsXFSPjxWDbXwkX2lbyuf8ACocqTzpvBit4ffHHJ7a0s6XqvKqv+pm9pWnTNX5VV/1E3tLBLlaSvR7Z9M22cdNVflVX/UTe0sWoqZJHY5XvlcBbFI9z3Yd13G/SVEqJqAqIqKUCIiAqIqONhc9Cgbbwa6N46u45w5FGwu6uNeCxo9GM9wXYFq3B/og0tEwvFpag8fIDtaHDkN7mgZbyVtK83ly7s61YTUVREVbsREQcr180R7nqfdDR8FVm5tsZUAZj7QF+3EtZBXadM6MjqoH08vNeMiNrHDNrh1g2XGqumkgkfBMMMkTsLtzh0OG8EWPet3T592Or5jPyY6u1uJVxKK6piWjSpLiVMSjxKmJNCTEo6g8h3Yhcopncl3YpTXfrZq4JZVXkNgiIgLn/AAq82k86bwYugLn/AAq82k86bwYreD9yOOT21zlURF6TKoqKqogKiIgKiqqILV72pmgzWVbWuF4IC2Wc9BAPIj+0R6A5eHGx73NYxpe97gxjG5l7ybABdv1T0E2hpmxc6R3LnePlykZgdQ2Ds6yqOfk7cdTzVuGO691VRF57QIiICIiCi1XXXVv3XGJoQBUwg4OjjWbTGT6wd/atqRTjlcbuIslmq4EDtBBaWktc1wsWuBsWkdBuhXRtdNUjNiqqRoFQB8JGLAVDRu3O8VzYO25EEEgtcCHNcNoIOwr0uPkmc3GXPG41VURUKschKjk5p7FerJOaewqR9C2QohXjtqiIiAufcK3NpPOm8GLoK59wrc2k86bwYreD9yOOT21zlURUXpMoqIiAiKiArXOAFzkAjnAC5yAXQtRdTCSytrm2As6np3DO+0SPB9Ib3lV8nJMJuuscbldRncHuqphArqltpnj4GNwzgjI5xHQ4j0DtK35EXnZZXK7rVJJNRVERcpEREBERAREQUWo62ansqrz05bDUgZnYya3Q+2w/W9N8rbcinHK43cRZLNVwKqgkie6GdjopG85jttt4OwjrCiK7dprQlPWMwVDMVua9vJfGd7XdHZsPSFzTTuplXS3dGHVcA+VG34Vo+swbe1t95st3H1GOXpfSs+fHZ4a2rZNh7CjXg7DdUk2HsK0q30MhRCvHbVEREBc+4V+bSedN4MXQVz7hX5tJ503gxW8H7kccntrm6oiL0mURFa5wGZyQVSNjnvaxjXPe84WMYC5z3bgAvd0BqlV1hDmtMEB2zzNIDhvYza/tyHWupau6s01C34FpdK4WfPJZ0juq/QOoevas/Jz44+k9atxwta9qfqKIS2orgJJhZzIMjHAegnoc71DryK35EWLLK5XdXySTUVREXKRERAREQEREBERAREQEREGv6b1To6sl8kfFyn9dCeLkJ6+h32gVo+leD2rjxGmfHVNzs02hl7MzhPpC6uisx5csfFcXCVrbdb6dhDatlTQOOVqqF7WE9Ujbs77r2aTSEEwxQTQzA9Mb2v8AArJc0EEEAg7QRcELxqvVTR8pu+kgDjtfG3iX334mWPrXP6U+r2kWu+9GEfoanSMA6BFWTWHc4lVGrcw5ulNJAbi+nf63RlNT7N36bCuecK/NpO2bwYtiOrs526U0iR1Gmb6xGoJ9SqeUtNTPXVWC+ET1LiG3tewaBbYNm5dcdmOUytRlLlNOOEqWlp5JXYYI5J3bomOfbtsMl2mk1P0dFbBSQuIzvKDOb7+WSvajia0BrGhrRsDQGgdwV+XVfUVzh+65Hovg/rprGbBSM+uRLJbqY029Lh2Ld9Caj0VMQ8tNRKMxJPZ4ad7Wc0dtietbSioy5c8vlZMJBVRFW7EREBERAREQEREBERAREQEREBERAREQUVURAREUAiIpBUVUQUVURAREQEREBERAREQEREH/2Q==" width="30">
+  <img class="logs2" src="https://static.vecteezy.com/system/resources/thumbnails/002/534/049/small/social-media-icon-instagram-logo-free-vector.jpg" width="30">
+  <img class="logs3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGvrreiStuwXXd9iseByl7jb8cPUfZQAwmlg&usqp=CAU" width="30">
+</div>
+ <pre>  © copyright 2022 The Spice Delight | All rights reserved</pre>
+    </footer>
+
+
+</body>
+</html>
+
+
+</body>
+</html>

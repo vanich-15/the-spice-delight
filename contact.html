@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Varun Kaushik">
+        <link rel="stylesheet" href="main.css">
+        <script defer = "script.js"></script>
+       <!--<link rel="stylesheet" href="./static/css/base.css">--> 
+        <title>Contact | Spice Delight</title>
+        <style>
+            nav a{
+            color: black;
+            font-size: 150%;
+            padding: 10px;
+            float: right; 
+            display: flex;  
+            flex-direction: row;
+            margin: 4px;
+            text-decoration: none;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            nav a:hover{
+            color:rgb(15,16,16);
+            
+            transform: scale(1.07);
+            }
+            nav{
+            margin-top: 15px;
+            }
+            a.booktable{
+  
+                background-color: rgb(2, 88, 2);
+                color: aliceblue;
+                padding: 7px;
+                font-size: 150%;
+                text-align: right;
+                border-radius: 8px;
+                
+                }
+                img {
+                    float: left;
+                    margin-left: 50px;
+                }
+        </style>
+    </head>
+
+    <body>
+
+        <nav>   
+            <div class="flexbox">
+            <img src="project logo.png" alt="logo" height="100" class="logo">
+             </div>
+            <a href="booktable.html" class="booktable">Book Table</a>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About</a>
+            <a href="#">Menu</a>
+            <a href="./index.html">Home</a>
+        </nav>
+
+
+        <main>
+            <div class="title">Contact us</div>
+            <div class="title-info">We'll get back to you soon!</div>
+
+            <form action="" method="" class="form">
+                <div class="input-group">
+                    <input type="text" name="first_name" id="first-name" placeholder="First name">
+                    <label for="first-name">First name</label>
+                </div>
+                
+                <div class="input-group">
+                    <input type="text" name="last_name" id="last-name" placeholder="Last Name">
+                    <label for="last-name">Last name</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="email" name="e-mail" id="e-mail" placeholder="e-mail">
+                    <label for="e-mail">e-mail</label>
+                </div>
+
+                <div class="textarea-group">
+                    <textarea name="message" id="message" rows="5" placeholder="Message"></textarea>
+                    <label for="message">Message</label>
+                </div>
+
+                <div class="button-div">
+                    <button type="submit">Send</button>
+                </div>
+            </form>
+        </main>
+    </body>
+</html>
